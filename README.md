@@ -13,9 +13,9 @@
 
 ## 🔎 Busca
 Basta digitar o termo a ser buscado e pressionar *'ENTER'* ou clicar no ícone da lupa 🔎.
-> A busca varrerá todos as composições do projeto retornando todos os layers de texto que testarem positivo para os parâmetros.\
-Caso precise, utilize as opções a baixo para refinar a busca.\
-A busca suporta múltiplos *'keyframes'* no *'Source Text'* e leva em consideração se a propriedade possui ou não uma expressão.
+> A busca varrerá todas as composições do projeto retornando os layers de texto que testam positivo para os parâmetros selecionados.\
+A busca suporta múltiplos *'keyframes'* no *'Source Text'* e leva em consideração se a propriedade possui ou não uma expressão.\
+Caso precise, utilize as opções a baixo para refinar a busca.
 
 1. ### ![visibilidade](/images/checkBoxIcon.png)  **`visibilidade`**
 
