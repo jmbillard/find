@@ -43,7 +43,9 @@ A busca suporta múltiplos *'keyframes'* no *'Source Text'* e leva em considera�
     > ex: **'\s{2,}'** retorna todos os textos que contém 2 ou mais espaços consecutivos.\
 
 ## 📑 Resultados
+
 Os resultados são exibidos na seção inferior da janela.
+
 ![busca](/images/resultados.png)
 
 A seção dos resultados contém:

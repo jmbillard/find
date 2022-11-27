@@ -403,7 +403,7 @@ function findDialog() {
 
   infoBtn.onClick = function() {
   
-    openWebSite('https://github.com/jmbillard/find');
+    openWebSite('https://github.com/jmbillard/find#find-script');
   };
   w.show();
 }
