@@ -390,9 +390,11 @@ function findDialog() {
           t = (aLayer.outPoint - aLayer.inPoint) / 2 + aLayer.inPoint;
           aLayer.shy = false;
           aLayer.selected = true;
-
+          
           if (doc.numKeys > 0) t = doc.keyTime(parseInt(k));
-
+          
+          t = t < comp.duration ? t : comp.duration;
+          t = t < 0 ? 0 : t;
         } else aLayer.shy = true;
       }
       comp.hideShyLayers = true;
