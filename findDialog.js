@@ -215,7 +215,6 @@ function expandNodes(nodeTree) {
 }
 
 function getComps() {
-
   var compArray = [];
 
   for (var i = 1; i <= app.project.numItems; i++) {
