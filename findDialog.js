@@ -362,6 +362,8 @@ function findDialog() {
     optCkb1.enabled = optCkb2.enabled = !optCkb3.value;
   };
 
+  // [ ] prioritize property value over keyframe value...[expressions can overwrite key values]
+  // [ ] return result object → {comp:..., layerIndex:..., time:...}
   // [ ] comment - resultTree
   resultTree.onChange = function () {
     var comp;
